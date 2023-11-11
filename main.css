@@ -1,0 +1,39 @@
+.w100 {width: 100%;}
+.h100 {height: 100%;}
+.hfit {height: fit-content;}
+.cek {background-color: black;}
+.flex {display: flex;}
+.row-rev {flex-direction: row-reverse;}
+.alce {align-items: center;}
+.juce {justify-content: center;}
+.smallText {font-size: small;}
+.relative {position: relative;}
+label::after {
+    content: '* ';
+    color: rgba(255, 0, 0, 0.932);
+}
+input:focus, input:active, input, textarea:focus, textarea:active, textarea {
+    background-color: #0372aa;
+    border: 1px solid #0284c7;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-kirim {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+body {
+    scroll-behavior: smooth;
+}
